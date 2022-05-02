@@ -19,5 +19,9 @@ export const TransactionItem = styled.tr`
     &.withdraw {
       color: var(--red);
     }
+
+    @media (max-width: 500px) {
+      padding: 0.8rem 1.5rem;
+    }
   }
 `;

@@ -16,4 +16,12 @@ export const TransactionsWrapper = styled.div`
     text-align: left;
     line-height: 1.5rem;
   }
+
+  @media (max-width: 500px) {
+    margin-top: 1rem;
+
+    th {
+      padding: 0.8rem 1.5rem;
+    }
+  }
 `;

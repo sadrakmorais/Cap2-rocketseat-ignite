@@ -9,9 +9,6 @@ export const SummaryWrapper = styled.div`
   @media (max-width: 800px) {
     grid-template-columns: 1fr;
   }
-  @media (max-width: 500px) {
-    margin-top: -11rem;
-  }
 `;
 
 export const ItemWrapper = styled.div`
@@ -37,5 +34,9 @@ export const ItemWrapper = styled.div`
     font-size: 2rem;
     font-weight: 500;
     line-height: 3rem;
+  }
+
+  @media (max-width: 500px) {
+    padding: 1rem 1.5rem;
   }
 `;
