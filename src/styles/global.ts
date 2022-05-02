@@ -70,6 +70,7 @@ h1,h2,h3,h4, strong{
    display:flex ;
    justify-content:center ;
    align-items:center ;
+   padding:20px ;
 }
 
 #react-modal-close{

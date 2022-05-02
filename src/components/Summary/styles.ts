@@ -5,6 +5,13 @@ export const SummaryWrapper = styled.div`
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: -10rem;
+
+  @media (max-width: 800px) {
+    grid-template-columns: 1fr;
+  }
+  @media (max-width: 500px) {
+    margin-top: -11rem;
+  }
 `;
 
 export const ItemWrapper = styled.div`

@@ -62,6 +62,10 @@ export const WrapperTransactionType = styled.div`
   width: 100%;
   gap: 0.5rem;
   display: flex;
+
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
 `;
 
 export const Button = styled.button<ButtonProps>`
